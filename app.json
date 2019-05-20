@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "calculator",
+    "description": "Cross platform Calculator for everyone",
+    "slug": "calculator",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "ios": {
+      "bundleIdentifier": "Zee.Development.Company"
+    },
+    "android": {
+      "package": "Zee.Development.Company"
+    },
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
